@@ -1,3 +1,9 @@
+<!-- 插入到页面标题上方 -->
+{% for message in get_flashed_messages() %}
+    <div class="alert">{{ message }}</div>
+{% endfor %}
+<h2>...</h2>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
