@@ -3,4 +3,8 @@
 __pycache__
 .DS_Store
 .env
+<<<<<<< HEAD
 *.db
+=======
+*.db
+>>>>>>> 3332a597000fe4ef845b9d98862b532c5671985e
